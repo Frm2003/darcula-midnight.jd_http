@@ -1,0 +1,24 @@
+{
+    "name": "darcule-midnight.jd_http",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "tsc --watch",
+        "format": "prettier --write ./",
+        "prebuild": "rm -rf ./dist",
+        "build": "tsc && npm pack"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "devDependencies": {
+        "@types/node": "^26.6.5",
+        "prettier": "^3.9.10",
+        "typescript": "^7.0.2"
+    },
+    "dependencies": {
+        "@darcula-midnight.jd/core": "file:darcula-midnight.jd-core-0.0.1.tgz"
+    }
+}
